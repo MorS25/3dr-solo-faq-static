@@ -1,0 +1,109 @@
+/* FONTS */
+@import url("//hello.myfonts.net/count/2ec104");
+
+@font-face {font-family: 'HelveticaNeueLTPro-Lt';src: url('../webfonts/2EC104_0_0.eot');src: url('../webfonts/2EC104_0_0.eot?#iefix') format('embedded-opentype'),url('../webfonts/2EC104_0_0.woff2') format('woff2'),url('../webfonts/2EC104_0_0.woff') format('woff'),url('../webfonts/2EC104_0_0.ttf') format('truetype'),url('../webfonts/2EC104_0_0.svg#wf') format('svg');}
+
+@font-face {font-family: 'HelveticaNeueLTPro-Md';src: url('../webfonts/2EC104_1_0.eot');src: url('../webfonts/2EC104_1_0.eot?#iefix') format('embedded-opentype'),url('../webfonts/2EC104_1_0.woff2') format('woff2'),url('../webfonts/2EC104_1_0.woff') format('woff'),url('../webfonts/2EC104_1_0.ttf') format('truetype'),url('../webfonts/2EC104_1_0.svg#wf') format('svg');}
+
+.list-title{
+  font-family: HelveticaNeueLTPro-Lt;
+}
+p{
+  color: #666767;
+}
+
+img{
+  width: 100%;
+}
+
+.li-title{
+  font-weight: 600 !important;
+  line-height: 19px;
+}
+
+/* GENERAL */
+
+li{
+  font-weight: 600;
+  color: #666767;
+  font-size: 17px;
+}
+
+.my_list{
+  position:relative;
+}
+
+.footer{
+  text-align: center;
+}
+
+.login{
+  text-align: center;
+}
+
+.browse{
+  text-align: center;
+}
+
+a{
+  color: #7dc241 !important;
+  text-decoration: none !important;
+  font-weight: 700;
+}
+
+/* FAQ PAGE SECTION */
+
+.faq-item{
+  padding: 15px 10px 10px 0px;
+  border-bottom: 3px solid #f1f1f1;
+}
+
+.faq-item p {
+  position: relative;
+  top: 3px;
+  font-size: 18px;
+  line-height: 30px;
+}
+
+.faq-content{
+  padding: 15px 0px;
+  line-height: 30px;
+}
+
+.faq-content img{
+  padding: 20px;
+}
+
+.faq-content p {
+  position: relative;
+  top: 3px;
+  font-family: helvetica;
+  font-size: 18px;
+  font-weight: 200;
+}
+
+.arrow{
+  max-width: 30px;
+  float: right;
+  border: 2px solid #7dc241;
+  border-radius: 100px;
+  transition: .5s;
+}
+
+.left{
+  float: left;
+}
+
+.arrow:hover{
+  opacity: .7;
+}
+
+/* SMALL SCREENS*/
+
+@media screen and (max-width: 768px) {
+  ol {
+      margin-top: 0;
+      margin-bottom: 10px;
+      margin-left: -15px;
+  }
+}
